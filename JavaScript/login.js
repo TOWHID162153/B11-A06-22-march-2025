@@ -20,11 +20,12 @@ getStarted.addEventListener("click", function () {
         const main = mainSection;
         main.classList.remove("hidden");
         } else {
-        alert("Password is not valid.😒😒");
+        alert(`                      --- Wrong Password 😒😒  --- 
+--- Please Contact your admin to get your  Login Code ---`);
         } 
     }
     else {
-        alert("Email is not valid.😑😑 ");  
+        alert(`--- Please Enter Your Name First 😊😊 ---`);  
         }
     });
 
